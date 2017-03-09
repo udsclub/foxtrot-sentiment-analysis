@@ -2,8 +2,9 @@
 Team foxtrot
 
 https://github.com/facebookresearch/fastText
+https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md
 
-| Approach | train accuracy | test accuracy | stop words                               | stemmer/lemmatizer                   | hyperparameters | lr    | lrUpdateRate | dim | epoch | minCount | wordNgrams |  pretrainedVectors |
+| approach | train accuracy | test accuracy | stop words                               | stemmer/lemmatizer                   | hyperparameters | lr    | lrUpdateRate | dim | epoch | minCount | wordNgrams |  pretrainedVectors |
 |----------|----------------|---------------|------------------------------------------|--------------------------------------|-----------------|-------|--------------|-----|-------|----------|------------|--------------------|
 | fastText | 0.868716       | 0.817044      | nltk.corpus.stopwords                    | N                                    | default         | 0.1   | 100          | 100 | 5     | 1        | 1          | N                  |
 | fastText | 0.847342       | 0.814095      | nltk.corpus.stopwords                    | nltk.stem.porter.PorterStemmer       | default         | 0.1   | 100          | 100 | 5     | 1        | 1          | N                  |
@@ -27,7 +28,7 @@ https://github.com/facebookresearch/fastText
 | fastText | 0.833267       | 0.816569      | N                                        | spacy.en.English                     | custom          | 0.01  | 100          | 300 | 8     | 500      | 1          | wiki.en            |
 | fastText | 0.832863       | 0.816328      | N                                        | spacy.en.English                     | custom          | 0.005 | 100          | 300 | 15    | 500      | 1          | wiki.en            |
 | fastText | 0.853817       | 0.82053       | movie                                    | spacy.en.English                     | custom          | 0.1   | 100          | 300 | 5     | 1        | 1          | wiki.en            |
-| fastText | 0.832658       | 0.817672      | movie                                    | spacy.en.English                     | custom          | 0.005 | 100          | 300 | 15    | 500      | 1          | wiki.en            |
+| fastText | 0.832658       | 0.817568      | movie                                    | spacy.en.English                     | custom          | 0.005 | 100          | 300 | 15    | 500      | 1          | wiki.en            |
 | fastText | 0.853757       | 0.819944      | movie, film etc.                         | spacy.en.English                     | custom          | 0.1   | 100          | 300 | 5     | 1        | 1          | wiki.en            |
 | fastText | 0.833054       | 0.817189      | movie, film etc.                         | spacy.en.English                     | custom          | 0.005 | 100          | 300 | 15    | 500      | 1          | wiki.en            |
 | fastText | 0.860124       | 0.811323      | movie, film etc. + nltk.corpus.stopwords | spacy.en.English                     | custom          | 0.1   | 100          | 300 | 5     | 1        | 1          | wiki.en            |
