@@ -2,6 +2,7 @@
 Team foxtrot
 
 https://github.com/facebookresearch/fastText
+https://github.com/facebookresearch/fastText/blob/master/pretrained-vectors.md
 
 | Approach | train accuracy | test accuracy | stop words                               | stemmer/lemmatizer                   | hyperparameters | lr    | lrUpdateRate | dim | epoch | minCount | wordNgrams |  pretrainedVectors |
 |----------|----------------|---------------|------------------------------------------|--------------------------------------|-----------------|-------|--------------|-----|-------|----------|------------|--------------------|
